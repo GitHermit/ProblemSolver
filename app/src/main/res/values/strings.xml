@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ProblemSolver</string>
+    <string name="appwidget_text">Click to add a new project!</string>
+    <string name="add_widget">Add widget</string>
+    <string name="delete_project">Delete Project</string>
+    <string name="add_project">Add Project</string>
+    <string name="edit_project">Edit Project</string>
+    <string name="completed_projects">Completed Projects</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="label_search">Search for a project!</string>
+    <string name="name_project">Name your project&#8230;</string>
+    <string name="priority_string">Priority</string>
+    <string name="add_button">Add</string>
+    <string name="update_button">Update</string>
+    <string name="click_here_to_add_another_step">Click here to add a step</string>
+    <string name="add_a_step_here">Add a step here!</string>
+    <string name="search_for_completed_projects">Search for completed Projects!</string>
+    <string name="current_projects">Current Projects</string>
+    <string name="search">Search</string>
+    <string name="bad_config">Please configure global_tracker.xml</string>
+    <string name="toast_update">Update the project with a name to begin adding steps to the project!</string>
+    <string name="project_status">Project is either incomplete or has been deleted.</string>
+    <string name="not_found">Project is either incomplete or has been deleted.</string>
+    <string name="found">\nproject has been completed! Great work!</string>
+    <string name="updating_liveData">Updating list of projects from LiveData in ViewModel</string>
+    <string name="add_a_project">add a Project!</string>
+    <string name="add_new_project">Add new project!</string>
+    <string name="new_project">new project</string>
+    <string name="google_ad">Google Ad</string>
+    <string name="welcome_toast">Click the bottom right button to add a project, swipe to complete it!</string>
+    <string name="step_tutorial">Name a project and add it to get started! Swipe a step to delete it!</string>
+    <string name="completed_tutorial">Here you can track your completed projects, swipe to delete them!</string>
+    <string name="project">Project:</string>
+
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/completed_layout"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:hint="@string/search_for_completed_projects"
+        android:id="@+id/completed_search" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/searched_project"
+        android:layout_height="wrap_content"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/recyclerViewCompletedProjects"
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp"
+        android:clipToPadding="false"/>
+
+
+    <com.google.android.gms.ads.doubleclick.PublisherAdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/completedPublisherAdView"
+        android:layout_width="match_parent"
+        android:contentDescription="@string/google_ad"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        ads:adSize="BANNER"
+        ads:adUnitId="/6499/example/banner">
+    </com.google.android.gms.ads.doubleclick.PublisherAdView>
+</LinearLayout>
+

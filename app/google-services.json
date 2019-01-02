@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "211149935310",
+    "firebase_url": "https://problemsolver-b50cc.firebaseio.com",
+    "project_id": "problemsolver-b50cc",
+    "storage_bucket": "problemsolver-b50cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211149935310:android:73eae5434167f54f",
+        "android_client_info": {
+          "package_name": "com.example.android.problemsolver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211149935310-o4vegi11o84h289gnr5m620j3svvl1bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWwR8B1bRmrK8KIMlkO6Fpl9GqSsPSMow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
